@@ -1,0 +1,35 @@
+let s:shade0 = "#dad4bb"
+let s:shade1 = "#cac4ad"
+let s:shade2 = "#b9b49f"
+let s:shade3 = "#a9a491"
+let s:shade4 = "#999482"
+let s:shade5 = "#898474"
+let s:shade6 = "#787466"
+let s:shade7 = "#686458"
+let s:accent0 = "#cd664d"
+let s:accent1 = "#b4af9a"
+let s:accent2 = "#3ba99f"
+let s:accent3 = "#727b59"
+let s:accent4 = "#4e4c43"
+let s:accent5 = "#5e6666"
+let s:accent6 = "#b26f5f"
+let s:accent7 = "#50403c"
+0: #f9f5d7
+1: #9d0006
+2: #79740e
+3: #b57614
+4: #076678
+5: #8f3f71
+6: #427b58
+7: #504945
+8: #bdae93
+9: #9d0006
+10: #79740e
+11: #b57614
+12: #076678
+13: #8f3f71
+14: #427b58
+15: #282828
+background: #c2bda6
+foreground: #48463d
+cursor: #f4f0e1
