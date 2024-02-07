@@ -64,6 +64,7 @@
   `(lazy-highlight               ((,class (:background ,ng4 :distant-foreground "black"))))
   `(show-paren-match             ((,class (:background ,na2))))
   `(fringe                       ((,class (:background ,yorha-bg))))
+  `(help-key-binding                       ((,class (:background ,ns1 :box (:line-width (1 . -1) :color ,ng4)))))
 
   ;;; diff
   `(diff-added                   ((,class (:inherit diff-changed :extend t :background ,na4))))
@@ -74,8 +75,11 @@
   `(smerge-upper ((,class (:extend t :background ,na1))))
   `(smerge-lower ((,class (:extend t :background ,na4))))
   `(magit-diff-context-highlight ((,class (:extend t :background ,na2 :foreground ,yorha-fg))))
+  `(magit-diff-context ((,class (:extend t :background ,na2 :foreground ,yorha-fg))))
   `(magit-diff-added-highlight ((,class (:extend t :background ,na4 :foreground ,yorha-0))))
+  `(magit-diff-added ((,class (:extend t :background ,na4 :foreground ,yorha-0))))
   `(magit-diff-removed-highlight ((,class (:extend t :background ,na1 :foreground ,yorha-0))))
+  `(magit-diff-removed ((,class (:extend t :background ,na1 :foreground ,yorha-0))))
   `(magit-diff-hunk-heading-highlight ((,class (:extend t :background ,ng2 :foreground ,yorha-0))))
   `(magit-diff-hunk-heading ((,class (:extend t :background ,yorha-bg))))
   `(magit-section-highlight ((,class (:extend t :background ,ns3))))
