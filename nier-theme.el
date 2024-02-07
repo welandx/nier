@@ -65,6 +65,9 @@
   `(show-paren-match             ((,class (:background ,na2))))
   `(fringe                       ((,class (:background ,yorha-bg))))
   `(help-key-binding                       ((,class (:background ,ns1 :box (:line-width (1 . -1) :color ,ng4)))))
+  `(header-line                       ((,class (:background ,ns3 :foreground ,yorha-9 :box nil :inherit mode-line))))
+  ;;whitespace
+  `(whitespace-empty                       ((,class (:extend t :background ,yorha-8))))
 
   ;;; diff
   `(diff-added                   ((,class (:inherit diff-changed :extend t :background ,na4))))
